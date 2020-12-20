@@ -1,0 +1,143 @@
+fieldset {
+    border: 0;
+}
+
+#tlogin {
+    display: flex;
+    text-align: center;
+}
+
+fieldset legend {
+    width: 100%;
+
+    font-size: clamp(20px, 3.2vw, 3.5vw);
+    line-height: 1.5;
+
+    color: white;
+    font-weight: 700;
+
+    padding-top: 1.5%;
+    
+}
+
+.input-block {
+    margin-top: 2rem;
+}
+.input-block label {
+    color: white;
+    font-size: clamp(15px, 1.5vw, 2vw);
+    margin-bottom: .8rem;
+    line-height: 1.5vw;
+    margin-left: 8%;
+    
+}
+
+
+.input-block input {
+    width: 90%;
+    background: #f5f8fa;
+    border: 1px solid #d3e2e5;
+    border-radius: 2rem;
+
+    color:black;
+
+    height: 4rem;
+    padding: 0 1.6rem;
+    margin-left: 5%;
+
+    font-size: clamp(15px, 1vw,1.5vw);
+}
+
+.primary-button {
+    margin-top: 6.4rem;
+    width: 30%;
+    height: 4rem;
+    border: none;
+    cursor: pointer;
+    background: #c0ce01;
+    border-radius: 2rem;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background-color .2s;
+
+    text-decoration: none;
+
+    margin-left: 10px;
+    font-size: clamp(15px, 1.7vw, 2vw);
+}
+
+.primary-button2 {
+    margin-top: 2.5rem;
+    width: 30%;
+    height: 4rem;
+    border: none;
+    cursor: pointer;
+    background: #c0ce01;
+    border-radius: 2rem;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background-color .2s;
+
+    text-decoration: none;
+
+    margin-left: 10px;
+    font-size: clamp(15px, 1.7vw, 2vw);
+}
+
+.primary-button:hover {
+    background: #b9ad00;
+}
+
+.primary-button2:hover {
+    background: #b9ad00;
+}
+
+@media (max-width: 500px) {
+    .primary-button {
+        margin-top: 2rem;
+        width: 30%;
+        height: 4rem;
+        border: none;
+        cursor: pointer;
+        background: #c0ce01;
+        border-radius: 2rem;
+        color: white;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        transition: background-color .2s;
+    
+        text-decoration: none;
+    
+        margin-left: 10px;
+        font-size: clamp(15px, 5vw, 2.5vw);
+    }
+    
+    .input-block {
+        margin-top: 10px;
+    }
+
+    .primary-button2 {
+        margin-top: 1rem;
+        width: 30%;
+        height: 4rem;
+        border: none;
+        cursor: pointer;
+        background: #c0ce01;
+        border-radius: 2rem;
+        color: white;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        transition: background-color .2s;
+    
+        text-decoration: none;
+    
+        margin-left: 10px;
+        font-size: clamp(15px, 5vw, 2.5vw);
+    }
+}
